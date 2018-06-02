@@ -1,0 +1,83 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>CollegianGiornalismo</Name>
+    <ProjectGuid>{290d1976-6e56-474b-8d55-04bada6e35f1}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="admin\class-tgm-plugin-activation.php" />
+    <Compile Include="admin\theme-options.php" />
+    <Compile Include="css\blue.css" />
+    <Compile Include="css\green.css" />
+    <Compile Include="css\left-sidebar.css" />
+    <Compile Include="css\mobile.css" />
+    <Compile Include="css\purple.css" />
+    <Compile Include="css\red.css" />
+    <Compile Include="css\tablet.css" />
+    <Compile Include="css\two-sidebars.css" />
+    <Compile Include="fonts\Canterbury.ttf" />
+    <Compile Include="fonts\OptimusPrincepsSemiBold.ttf" />
+    <Compile Include="images\email.png" />
+    <Compile Include="images\facebook.png" />
+    <Compile Include="images\googleplus.png" />
+    <Compile Include="images\instagram.png" />
+    <Compile Include="images\linkedin.png" />
+    <Compile Include="images\mobile-nav-icon.png" />
+    <Compile Include="images\not-found.png" />
+    <Compile Include="images\pinterest.png" />
+    <Compile Include="images\rss.png" />
+    <Compile Include="images\tumblr.png" />
+    <Compile Include="images\twitter.png" />
+    <Compile Include="images\youtube.png" />
+    <Compile Include="js\mobile-nav.js" />
+    <Compile Include="js\mobile-sidebar.js" />
+    <Compile Include="languages\de_DE.mo" />
+    <Compile Include="languages\de_DE.po" />
+    <Compile Include="languages\es_ES.mo" />
+    <Compile Include="languages\es_ES.po" />
+    <Compile Include="languages\es_MX.mo" />
+    <Compile Include="languages\es_MX.po" />
+    <Compile Include="languages\fr_FR.mo" />
+    <Compile Include="languages\fr_FR.po" />
+    <Compile Include="languages\giornalismo.pot" />
+    <Compile Include="languages\it_IT.mo" />
+    <Compile Include="languages\it_IT.po" />
+    <Compile Include="languages\ru_RU.mo" />
+    <Compile Include="languages\ru_RU.po" />
+    <Compile Include="404.php" />
+    <Compile Include="archive.php" />
+    <Compile Include="author.php" />
+    <Compile Include="comments.php" />
+    <Compile Include="editor-style.css" />
+    <Compile Include="footer.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="header.php" />
+    <Compile Include="home.php" />
+    <Compile Include="index.php" />
+    <Compile Include="page.php" />
+    <Compile Include="readme.txt" />
+    <Compile Include="screenshot.png" />
+    <Compile Include="sidebar.php" />
+    <Compile Include="single.php" />
+    <Compile Include="style.css" />
+    <Compile Include="template-staff-page.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin" />
+    <Folder Include="css" />
+    <Folder Include="fonts" />
+    <Folder Include="images" />
+    <Folder Include="js" />
+    <Folder Include="languages" />
+  </ItemGroup>
+</Project>
